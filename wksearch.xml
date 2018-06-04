@@ -1,13 +1,14 @@
 <OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/"
-  xmlns:moz="http://www.mozilla.org/2006/browser/search/">
-<ShortName>Quora</ShortName>
-<Description>Look up on Quora</Description>
-<InputEncoding>UTF-8</InputEncoding>
-<Image width="16" height="16" type="image/x-icon">http://www.quora.com/favicon.ico</Image>
-<Tags>test</Tags>
-<Url type="application/rss+xml" template="http://www.quora.com/opensearch/query?q={searchTerms}&amp;pw={startPage?}&amp;format=rss"/>
-<Url type="text/html" template="http://www.quora.com/opensearch/query?q={searchTerms}&amp;pw={startPage?}"/>
-<Url type="application/x-suggestions+json" template="http://www.quora.com/opensearch/suggest?q={searchTerms}"/>
-<moz:SearchForm>http://www.quora.com/search</moz:SearchForm>
-<Url type="application/opensearchdescription+xml" rel="self" template="http://www.quora.com/opensearch/description.xml"/>
+                       xmlns:moz="http://www.mozilla.org/2006/browser/search/">
+  <ShortName>SNK</ShortName>
+  <Description>Search engine full name and summary</Description>
+  <InputEncoding>UTF-8</InputEncoding>
+  <Image width="16" height="16" type="image/x-icon">data:image/x-icon;base64,AAABAAEAEBAAA ...</Image>
+  <Url type="text/html" template="searchURL">
+    <Param name="key name" value="{searchTerms}"/>
+    ...
+    <Param name="key name" value="parameter value"/>
+  </Url>
+  <Url type="application/x-suggestions+json" template="suggestionURL"/>
+  <moz:SearchForm>http://example.com/search</moz:SearchForm>
 </OpenSearchDescription>
