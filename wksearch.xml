@@ -5,8 +5,8 @@
 <InputEncoding>UTF-8</InputEncoding>
 <Image width="16" height="16" type="image/x-icon">http://www.quora.com/favicon.ico</Image>
 <Tags>test</Tags>
-<Url type="application/rss+xml" template="http://www.quora.com/opensearch/query?q={searchTerms}&pw={startPage?}&format=rss"/>
-<Url type="text/html" template="http://www.quora.com/opensearch/query?q={searchTerms}&pw={startPage?}"/>
+<Url type="application/rss+xml" template="http://www.quora.com/opensearch/query?q={searchTerms}&amp;pw={startPage?}&amp;format=rss"/>
+<Url type="text/html" template="http://www.quora.com/opensearch/query?q={searchTerms}&amp;pw={startPage?}"/>
 <Url type="application/x-suggestions+json" template="http://www.quora.com/opensearch/suggest?q={searchTerms}"/>
 <moz:SearchForm>http://www.quora.com/search</moz:SearchForm>
 <Url type="application/opensearchdescription+xml" rel="self" template="http://www.quora.com/opensearch/description.xml"/>
