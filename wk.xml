@@ -7,12 +7,10 @@
 
   <Url xmlns:parameters="http://a9.com/-/spec/opensearch/extensions/parameters/1.0/"
         type="text/html"
-        template="https://www.wanikani.com/search/{searchTerms}"
-        parameters:method="POST"
+        template="https://www.wanikani.com/?query={searchTerms}"
+        parameters:method="GET"
         parameters:enctype="application/x-www-form-urlencoded">
-     <parameters:Parameter name="query" value="{searchTerms}"/>
-     <parameters:Parameter name="uh" value="huh"/>
-   </Url>
+    </Url>
     <Url type="application/opensearchdescription+xml"
      rel="self"
      template="https://rawgit.com/SirenHound/wksearch/master/wk.xml" />
