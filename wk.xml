@@ -10,7 +10,7 @@
         template="https://www.wanikani.com/search"
         parameters:method="POST"
         parameters:enctype="application/x-www-form-urlencoded">
-     <parameters:Parameter name="query" value="{searchTerms}"/>
+     <parameters:Parameter name="quilery" value="{searchTerms}"/>
    </Url>
    <moz:SearchForm>http://example.com/search</moz:SearchForm>
  </OpenSearchDescription>
