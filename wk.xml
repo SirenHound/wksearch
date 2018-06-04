@@ -8,7 +8,7 @@
   <Url xmlns:parameters="http://a9.com/-/spec/opensearch/extensions/parameters/1.0/"
         type="text/html"
         template="https://www.wanikani.com/search/{searchTerms}"
-        parameters:method="GET"
+        parameters:method="POST"
         parameters:enctype="application/x-www-form-urlencoded">
      <parameters:Parameter name="query" value="{searchTerms}"/>
    </Url>
