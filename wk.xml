@@ -17,3 +17,4 @@
      template="https://rawgit.com/SirenHound/wksearch/master/wk.xml" />
    <moz:SearchForm>http://example.com/search</moz:SearchForm>
  </OpenSearchDescription>
+ 
