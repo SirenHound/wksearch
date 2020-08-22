@@ -13,7 +13,7 @@
     </Url>
     <Url type="application/opensearchdescription+xml"
      rel="self"
-     template="https://rawgit.com/SirenHound/wksearch/master/wk.xml" />
+     template="https://rawcdn.githack.com/SirenHound/wksearch/9ed7d06e222c6e4df4fb84f40c4570f0fe04a7b5/wkse.xml" />
    <moz:SearchForm>http://example.com/search</moz:SearchForm>
  </OpenSearchDescription>
  
